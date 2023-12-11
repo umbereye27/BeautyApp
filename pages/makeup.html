@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="device-width-width,initial-scale">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+    <a href="#" class="logo">Logo</a>
+    <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="./iindex.html">Home</a></li>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./iindex.html">All Products <b><i class='bx bxs-down-arrow'></i></b></a>
+                  <ul>
+                    <li><a href="./makeup.html">Make UP</a></li>
+                    <li><a href="./skincare.html">Skin Care</a></li>
+                    <li><a href="./haircare.html">Hair Care</a></li>
+                  </ul>
+                </li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+   
+   </header>
+
+   <main>
+    <div class="makeup-content">
+        
+        <h1>Makeup</h1>
+        <a href="./iindex.html">Home</a><strong>/Makeup</strong>
+        <div class="cards">
+            <div class="card">
+                <figure>
+                    <img src="../images/img2.jpg" alt="">
+                    <figcaption>Product Name 1 <br>
+                        $75.00 $59.00</figcaption>
+                </figure>
+            </div>
+        
+            <div class="card">
+                <figure>
+                    <img src="../images/make1.jpg" alt="">
+                    <figcaption>Product Name 2 <br>
+                        $75.00 $59.00</figcaption>
+                </figure>
+            </div>
+      
+    
+            <div class="card">
+                <figure>
+                    <img src="../images/make2.jpg" alt="">
+                    <figcaption>Product Name 3 <br>
+                        $75.00 $59.00</figcaption>
+                </figure>
+            </div>
+     
+        
+            <div class="card">
+                <figure>
+                    <img src="../images/make3.jpg" alt="">
+                    <figcaption>Product Name 4 <br>
+                        $75.00 $59.00</figcaption>
+                </figure>
+           </div>
+        </div>
+    </div>
+    
+   </main>
+   <div class="part5">
+    <h2>WHY CHOOSE US</h2>
+    <div class="content5">
+        <div class="cont">
+           <h3> <i class='bx bxs-truck'></i> Fast Delivery</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,Ut elit tellus, luctus nec ullamcorper mattis.</p>
+        </div>
+        <div class="cont">
+            <h3><i class='bx bxs-cart-download'></i> Free Shipping</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,Ut elit tellus, luctus nec ullamcorper mattis.</p>
+        </div>
+        <div class="cont">
+            <h3><i class='bx bx-arrow-back' ></i> Easy Returns</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,Ut elit tellus, luctus nec ullamcorper mattis.</p>
+        </div>
+
+    </div>
+</div>
+<footer>
+<div class="footer1">
+    <h4>Subscribe to our newsletter</h4>
+    <div class="subscribe"><input type="email" required placeholder="Your Email Address ..."><button class="btn footer"> SUBSCRIBLE</button></div>
+</div>
+<hr>
+<div class="footer2">
+    <a href="#" class="logo">Logo</a>
+    <ul>
+        <h4>Quick Link</h4>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">All Products <b><i class='bx bxs-down-arrow'></i></b></a>
+          <ul>
+            <li><a href="#">Make UP</a></li>
+            <li><a href="#">Skin Care</a></li>
+            <li><a href="#">Hair Care</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Login</a></li>
+    </ul> 
+    <ol>
+        <h4> Our Socail Medias</h4>
+        <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+        <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+        <li><a href="#"><i class='bx bxl-instagram-alt' ></i></a></li>
+        <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
+    </ol>
+</div>
+<hr>
+<div class="footer3">
+    <p>Copyright &copy; 2023 | BEAUTY STORE. All rights reserved.</p>
+</div>
+
+</footer>
+</section>
+</main>
+<script>
+let menuToggle = document.querySelector('.menuToggle');
+let header = document.querySelector('header');
+menuToggle.onclick = function() {
+header.classList.toggle('active');
+}
+</script>
+</body>
+</html>
